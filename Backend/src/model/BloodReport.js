@@ -1,4 +1,4 @@
-import mongoose, { Mongoose, mongo } from 'mongoose';
+import mongoose from 'mongoose';
 
 const bloodReportSchema = new mongoose.Schema({
     RBC:{
@@ -13,12 +13,10 @@ const bloodReportSchema = new mongoose.Schema({
     hemoglobin:{
         type: String
     },
-    user:[
-        {
-            type: mongoose.Schema.Types.ObjectId,
-            ref:'User'
-        }
-    ] 
+    user:{
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'User'
+    } 
 }, {timestamps: true});
 
 const BloodReport = mongoose.model('BloodTest', bloodReportSchema);
