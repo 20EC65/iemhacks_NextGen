@@ -7,7 +7,7 @@ Sunil Prajapat (ECE 3rd year )  , Tushar Tak  (CSE 3rd year ) , Sakshi Gupta (EC
         - Method : POST
         - Body : {
             "name": "tushar",
-            "phoneNumber": "8619602183",
+            "email": "tushartak54@gmail.com",
             "password" : "123"
         }
         - Response : {
