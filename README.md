@@ -1,7 +1,7 @@
 # iemhacks_NextGen
 Sunil Prajapat (ECE 3rd year )  , Tushar Tak  (CSE 3rd year ) , Sakshi Gupta (ECE 3rd year )
 
-#Endpoints
+# Endpoints
     - Create User/Docter
         - Path : /api/v1/signup
         - Method : POST
