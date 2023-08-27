@@ -34,10 +34,18 @@ Sunil Prajapat (ECE 3rd year )  , Tushar Tak  (CSE 3rd year ) , Sakshi Gupta (EC
         - Path : /api/v1/reports
         - Method : POST
         - Body : {
-            "RBC" : "23",
-            "WBC" : "23",
-            "Platelets" : "23",
-            "Hemoglobin" : "23"
+            "RBC": "34",
+            "MCV": "34",
+            "Platelets": "34",
+            "hemoglobin": "34",
+            "monocycle": "34",
+            "MCH": "34",
+            "Neutrophilis":"34",
+            "TLC": "34",
+            "HCT": "34",
+            "MCHC": "34",
+            "lymphosytes": "34",
+            "eosinophis": "34"
         }
         Note : It should be in json.
         - Response : {
@@ -56,5 +64,35 @@ Sunil Prajapat (ECE 3rd year )  , Tushar Tak  (CSE 3rd year ) , Sakshi Gupta (EC
             data: all_reports_here,
             success: true,
             message: 'Successfully fetched the reports',
+            err: {}
+        }
+    - Create a Professional Health Docter
+        - Path : /api/v1/professionals
+        - Method : POST
+        - Body: {
+            "name" : "Tushar",
+            "email": "tushar45@gmail.com",
+            "address": "ajmer",
+            "currAddress": "ajmer",
+            "age": 21,
+            "expertise": "Heart"
+        }
+        - Response : {
+            data: newly Created user here,
+            success: true,
+            message: 'Successfully created the professional',
+            err: {}
+        }
+    
+    - Get All Professional Health Docter Details
+        - Path : /api/v1/professionals
+        - Method : GET
+        - Body : {
+            //Empty
+        } 
+        - Response : {
+            data: all_reports_here,
+            success: true,
+            message: 'Successfully fetched the Details',
             err: {}
         }
