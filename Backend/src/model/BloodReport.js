@@ -4,7 +4,7 @@ const bloodReportSchema = new mongoose.Schema({
     RBC:{
         type:String
     },
-    WBC:{
+    MCV:{
         type: String
     },
     Platelets: {
@@ -12,6 +12,30 @@ const bloodReportSchema = new mongoose.Schema({
     },
     hemoglobin:{
         type: String
+    },
+    monocycle:{
+        type: String
+    },
+    MCH:{
+        type: String
+    },
+    Neutrophilis:{
+        type: String
+    },
+    TLC: {
+        type: String
+    },
+    HCT:{
+        type: String
+    },
+    MCHC:{
+        type: String
+    },
+    lymphosytes:{
+        type: String
+    },
+    eosinophis:{
+        type:String
     },
     user:{
         type: mongoose.Schema.Types.ObjectId,
