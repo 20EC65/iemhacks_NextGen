@@ -1,0 +1,46 @@
+.heading{
+    background-color: #a5d7e8;
+}
+.doc-info{
+    padding: 20px;
+  
+}
+.doc-info h2{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+  margin: 20px ;
+}
+.card-img-top{
+    width: 100%;
+    height: 28vh;
+}
+.card{
+    cursor: pointer;
+}
+.card-body{
+    height: 50px;
+}
+.card-body a{
+    text-decoration: none;
+}
+.doc-info i{
+    margin-right: 20px;
+}
+.col-sm-4{
+    display: flex;
+    justify-content: center;
+}
+.green{
+    color: green;
+    margin-left: 40px;
+    font-weight: 900;
+}
+.red{
+    color: crimson;
+    margin-left: 40px;
+    font-weight: 900;
+}

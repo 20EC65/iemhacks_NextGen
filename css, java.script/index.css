@@ -1,0 +1,582 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+.main-reg-nav{
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(89, 83, 149);
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   color: white;
+}
+
+
+.reg-main-block{
+    width: 100%;
+  height: 73vh;
+  display: flex;
+  justify-content: center;
+}
+
+.input-register{
+  margin-top: 50px;
+width: 80%;
+height: auto;
+
+}
+
+
+.data-reg-pro h2{
+    color: rgb(7, 7, 52);
+    font-weight: 700;
+    font-size: 1.8rem;
+    text-align: center;
+}
+.data-reg-pro input , .data-profesional input{
+    width: 400px;
+    height: 35px;
+    border: none;
+    padding: 15px;
+    margin-top: 30px;
+    box-shadow: 0px 0px 3px black;
+    border-radius: 5px;
+    /* background-color: rgb(58, 58, 89); */
+}
+
+.button{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+.register-button{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(89, 83, 149);
+    border: none;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    color: white;
+}
+.register-button:hover{
+    cursor: pointer;
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+}
+
+ /* Hospital registration */
+ .nav-hostpital{
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(89, 83, 149);
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   color: white;
+ }
+ .nav-hostpital i{
+    margin-right: 20px;
+ }
+.main-container-hospital{
+    width: 100%;
+  height: 90vh;
+}
+ .main-hostpital-form{
+    width: 100%;
+  height: 90vh;
+  
+  display: flex;
+ }
+ .left-host {
+    width: 100%;
+    height: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+  
+ }
+ .input-hostpital i{
+    margin-right: 20px;
+ }
+  /* .right-host{
+    width: 30%;
+    height: 100%;
+    display: flex;
+   
+   align-items: center;
+   justify-content: center;
+  } */
+  .host-image{
+    width: 100%;
+    height: 100%;
+   background-image: url("gif.gif");
+   background-size: cover;
+   background-repeat: no-repeat;
+  background-position: center;
+  }
+  .input-hostpital {
+    width: 70%;
+    height: 80%;
+    
+  }
+  .input-hostpital input{
+    width: 300px;
+    height: 35px;
+    border: none;
+    padding: 15px;
+    margin-top: 10px;
+    box-shadow: 0px 0px 3px black;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.input-hostpital p {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.input-hostpital input::placeholder { 
+    color: white;
+}
+.button-host{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    color: white;
+}
+.register-button-host{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(89, 83, 149);
+    border: none;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    color: white;
+    
+}
+.register-button-host:hover{
+    cursor: pointer;
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+}
+
+ /* report section of patient */
+
+ .report{
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(89, 83, 149);
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   color: white;
+ }
+ .main-report-con{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+   
+ }
+ .left-type-report{
+    width: 20%;
+    height: 100%;
+    background-color: rgb(89, 106, 190);
+ }
+ .left-type-report h2{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+ }
+ .right-detail-report{
+    width: 80%;
+    height: 100%;
+    
+ }
+ .left-type-report ul {
+    width: 300px;
+    height: auto;
+    margin-top: 40px;
+    
+}
+ .left-type-report p{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: rgb(231, 235, 237);
+    margin-top: 20px;
+    margin-left: 30px;
+    list-style: none;
+    width: 200px;
+    padding: 10px;
+    height: 50px;
+    
+ }
+.data{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.data a{
+    width: 100%;
+    height: 40px;
+   
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    padding: 5px;
+   
+   
+}
+.report i{
+    margin-right: 20px;
+}
+.data a i{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.data a:hover{
+    background-color: rgb(173, 162, 201);
+}
+
+/* reports page */
+.patient-data{
+    width: 80%;
+    height: 15vh;
+    position: fixed;
+   display: flex;
+   justify-content: end;
+   top: 10%;
+   left: 20%;
+   
+   align-items: center;
+}
+.info-patient{
+    width: 300px;
+    height:68%; 
+   
+    margin-right: 20px;
+}
+.info-patient p{
+    
+    margin-right: 50px;
+}
+.patient-data p{
+    font-size: 1.2rem;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+.image{
+    width: 120px;
+    height: 120px ;
+    background-image: url("user.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 5;
+    margin-right: 30px;
+}
+.data1{
+    width: 80%;
+    height: 75vh;
+    position: fixed;
+   
+   top: 27%;
+   left: 20%;
+   
+}
+.close{
+    display: flex;
+    width: 80%;
+    height: 80vh;
+}
+.left-block1-data{
+    width: 50%;
+    height: 100%;
+    
+}
+
+
+/* // patient data enter  */
+.nav-patient{
+    width: 100%;
+    height: 10vh ;
+    background-color: rgb(89, 83, 149);
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   color: white;
+}
+.type-of-report{
+    width: 100%;
+    height: 10vh ;
+    font-weight: bold;
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   
+}
+
+.Laboratry-report{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.page-of-mid{
+    width: 80%;
+    height: auto;
+  margin-top: 20px;
+}
+.container{
+    margin-bottom: 40px;
+}
+.col{
+    width: 100px;
+    height: 60px;
+    background-color: aquamarine;
+}
+
+.thank-you-pop{
+	width:100%;
+ 	padding:20px;
+	text-align:center;
+}
+.thank-you-pop img{
+	width:76px;
+	height:auto;
+	margin:0 auto;
+	display:block;
+	margin-bottom:25px;
+}
+
+.thank-you-pop h1{
+	font-size: 42px;
+    margin-bottom: 25px;
+	color:#5C5C5C;
+}
+.thank-you-pop p{
+	font-size: 20px;
+    margin-bottom: 27px;
+ 	color:#5C5C5C;
+}
+.thank-you-pop h3.cupon-pop{
+	font-size: 25px;
+    margin-bottom: 40px;
+	color:#222;
+	display:inline-block;
+	text-align:center;
+	padding:10px 20px;
+	border:2px dashed #222;
+	clear:both;
+	font-weight:normal;
+}
+.thank-you-pop h3.cupon-pop span{
+	color:#03A9F4;
+}
+.thank-you-pop a{
+	display: inline-block;
+    margin: 0 auto;
+    padding: 9px 20px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    background-color: #8BC34A;
+    border-radius: 17px;
+}
+.thank-you-pop a i{
+	margin-right:5px;
+	color:#fff;
+}
+#ignismyModal .modal-header{
+    border:0px;
+}
+/*--thank you pop ends here--*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+ background-color: #03A9F4;
+}
+
+.card {
+  border-radius: 10px;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+  width: 500px;
+  height: 400px;
+  background-color: #ffffff;
+  padding: 10px 30px;
+}
+
+.card_title {
+  text-align: center;
+  padding: 10px;
+}
+
+.card_title h1 {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.form input {
+  margin: 10px 0;
+  width: 100%;
+  background-color: #e2e2e2;
+  border: none;
+  outline: none;
+  padding: 12px 20px;
+  border-radius: 4px;
+}
+
+.form button {
+  background-color: #4796ff;
+  color: #ffffff;
+  font-size: 16px;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  padding: 8px 15px;
+  width: 100%;
+}
+
+.card_terms {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.card_terms input[type="checkbox"] {
+  background-color: #e2e2e2;
+}
+
+.card_terms span {
+  margin: 5px;
+  font-size: 13px;
+}
+
+.card a {
+  color: #4796ff;
+  text-decoration: none;
+}
+
+
+
+/* pop sucess */
+.modal-confirm {
+    color: #636363;
+    width: 325px;
+    }
+    .modal-confirm .modal-content {
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    }
+    .modal-confirm .modal-header {
+    border-bottom: none;
+    position: relative;
+    }
+    .modal-confirm h4 {
+    text-align: center;
+    font-size: 26px;
+    margin: 30px 0 -15px;
+    }
+    .modal-confirm .form-control, .modal-confirm .btn {
+    min-height: 40px;
+    border-radius: 3px;
+    }
+    .modal-confirm .close {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    }
+    .modal-confirm .modal-footer {
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 13px;
+    }
+    .modal-confirm .icon-box {
+    color: #fff;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: -70px;
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+    z-index: 9;
+    background: #82ce34;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+    }
+    .modal-confirm .icon-box i {
+    font-size: 58px;
+    position: relative;
+    top: 3px;
+    }
+    .modal-confirm.modal-dialog {
+    margin-top: 80px;
+    }
+    .modal-confirm .btn {
+    color: #fff;
+    border-radius: 4px;
+    background: #82ce34;
+    text-decoration: none;
+    transition: all 0.4s;
+    line-height: normal;
+    border: none;
+    }
+    .modal-confirm .btn:hover, .modal-confirm .btn:focus {
+    background: #6fb32b;
+    outline: none;
+    }
+    .trigger-btn {
+    display: inline-block;
+    margin: 100px auto;
+    }
+
+    .text-center a{
+        text-decoration: none;
+        font-size: 2rem;
+        color: #03A9F4;
+        font-weight: bold;
+    }
